@@ -32,6 +32,8 @@ def draw():
 
     update()
 
+# Definimos el movimiento del proyectil y objetivos
+    
 def move():
     "Move ball and targets."
     if randrange(40) == 0:
@@ -66,6 +68,8 @@ def move():
 
     ontimer(move, 50)
 
+# Definimos el mapa de juego
+    
 setup(420, 420, 370, 0)
 hideturtle()
 up()
